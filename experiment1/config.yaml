@@ -12,7 +12,7 @@ device: 'cuda:0'  # Which device to run the computations on.
 # Modifiable Parameters
 datasets: ['bloodmnist'] # Which dataset to use. ['bloodmnist', 'breastmnist', 'chestmnist', 'dermamnist', 'octmnist', 'organamnist', 'organcmnist', 'organsmnist', 'pathmnist', 'pneumoniamnist', 'retinamnist', 'tissuemnist']
 img_sizes: [28] # Height and width of the input image. [28, 64, 128, 224]
-training_procedures: ['endToEnd'] # Which training procedure to use. ['endToEnd', 'linearProbing', 'kNN']
+training_procedures: ['endToEnd'] # Which training procedure to use. ['endToEnd', 'linearProbing']
 architectures: ['densenet121']  # Which model to use. ('vgg16', 'alexnet', 'resnet18', 'densenet121', 'efficientnet_b4', 'vit_base_patch16_224', 'vit_base_patch16_clip_224', 'eva02_base_patch16_clip_224', 'vit_base_patch16_224.dino', 'samvit_base_patch16') added: 'vit_base_patch14_dinov2.lvd142m'
 k: 11  # Number of neighbors for the kNN.
 seeds: [9930641] # Seed for random operations for reproducibility. [9930641, 115149041, 252139603]

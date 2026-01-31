@@ -13,10 +13,13 @@ The key contributions of this github is to provide code for three experiment bas
 # 📁 Dataset Charts
 This Code repository takes the MedMNIST+ dataset and plots the Images with Classes and Class name, the Train, Val, Test, and Total Distribution as Table and Bar Chart
 ![](assets/Retinamnist_Images.png)
+Exemplary RetinaMNIST Dataset Images 
 <br>
 ![](assets/Retinamnist_Data_Table.png)
+Exemplary RetinaMNIST Dataset Total, Train, Val,Test Distribution Table
 <br>
 ![](assets/Retinamnist_Class_Distribution.png)
+Exemplary RetinaMNIST Dataset Total, Train, Val,Test Distribution Bar Chart
 <br>
 # 🧪 Experiment 1 - Reproduce sota methods
 First the fine-tuning pipeline is rerun with the possibility to run multiple models, datasets, seeds in one run and to log the training progress in .txt files.

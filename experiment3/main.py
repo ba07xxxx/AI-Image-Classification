@@ -9,9 +9,6 @@ Main script to train and evaluate a model on the specified dataset of the MedMNI
 
 # Import packages
 import os
-os.environ['CUBLAS_WORKSPACE_CONFIG'] = ':4096:8'
-os.environ["HF_HOME"] = os.path.expanduser("~/.cache/huggingface")
-os.environ["HF_HUB_CACHE"] = os.path.expanduser("~/.cache/huggingface/hub")
 import sys
 import argparse
 import yaml

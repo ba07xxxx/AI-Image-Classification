@@ -15,12 +15,15 @@ This Code repository takes the MedMNIST+ dataset and plots the Images with Class
 ![](assets/Retinamnist_Images.png)
 Exemplary RetinaMNIST Dataset Images 
 <br>
+
 ![](assets/Retinamnist_Data_Table.png)
 Exemplary RetinaMNIST Dataset Total, Train, Val,Test Distribution Table
 <br>
+
 ![](assets/Retinamnist_Class_Distribution.png)
 Exemplary RetinaMNIST Dataset Total, Train, Val,Test Distribution Bar Chart
 <br>
+
 # 🧪 Experiment 1 - Reproduce sota methods
 First the fine-tuning pipeline is rerun with the possibility to run multiple models, datasets, seeds in one run and to log the training progress in .txt files.
 

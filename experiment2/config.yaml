@@ -1,0 +1,22 @@
+# xAILab
+# Chair of Explainable Machine Learning
+# Otto-Friedrich University of Bamberg
+#
+
+# Fixed Parameters
+data_path: ''  # Where the dataset is stored
+output_path: ''  # Where the trained model shall be stored.
+log_base_output_path: '' # Where the training logging shall be stored.
+iterations: 15000 # How many iterations to train for.
+learning_rate_encoder: 0.00001  # Learning rate for the encoder; for CNNs: 0.0001; lr for ViTs: 0.00001
+learning_rate_decoder: 0.001  # Learning rate for the decoder; reduce by 0.9 every 200 iterations
+batch_size: 64  # Batch size for the training.
+batch_size_eval: 128  # Batch size for the evaluation.
+device: 'cuda:0'  
+
+# Modifiable Parameters
+datasets: ['retinamnist', 'breastmnist']  # Which dataset to use. ['bloodmnist', 'breastmnist', 'chestmnist', 'dermamnist', 'octmnist', 'organamnist', 'organcmnist', 'organsmnist', 'pathmnist', 'pneumoniamnist', 'retinamnist', 'tissuemnist']
+img_sizes: [224]  # Height and width of the input image. [28, 64, 128, 224]
+training_procedures: ['endToEnd', 'linearProbing']  # Which training procedure to use. ['endToEnd', 'linearProbing']
+architectures: ['vit_base_patch16_224.dino']  # Which model to use. ['vgg16', 'alexnet', 'resnet18', 'densenet121', 'efficientnet_b4', 'vit_base_patch16_224', 'vit_base_patch16_clip_224', 'eva02_base_patch16_clip_224', 'vit_base_patch16_224.dino', 'samvit_base_patch16']
+seeds: [9930641, 115149041, 252139603]  # Seed for random operations for reproducibility. [9930641, 115149041, 252139603]

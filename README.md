@@ -37,6 +37,6 @@ Third the fine-tuning pipeline is improved with data augmentation with random re
 </p>
 
 <p align="center">
-  <img src="assets/fig_param_importances.png" height="300">
   <img src="assets/fig_optimization_history.png" height="300">
+  <img src="assets/fig_param_importances.png" height="300">
 </p>

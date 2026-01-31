@@ -10,9 +10,6 @@ The script trains a model on a specified dataset of the MedMNIST+ collection and
 # Import packages
 import optuna
 import os 
-os.environ['CUBLAS_WORKSPACE_CONFIG'] = ':4096:8'
-os.environ["HF_HOME"] = os.path.expanduser("~/.cache/huggingface")
-os.environ["HF_HUB_CACHE"] = os.path.expanduser("~/.cache/huggingface/hub")
 import argparse
 import yaml
 import torch

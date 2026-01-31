@@ -31,4 +31,12 @@ First the fine-tuning pipeline is rerun with the possibility to run multiple mod
 Second the fine-tuning pipeline is adjusted so the training is iteration-based, uses one learning rate for the encoder and one for the decoder and appllies scaling.
 
 # 🧪 Experiment 3 - Improve sota methods
-Third the fine-tuning pipeline is improved with data augmentation with random resizing, horizontal and vertical flipping, and affine, oversampling of underrepresented classes, automated hyperparameter tuning with optuna, warm up and cosine annealing, speed up of training with autocast, and training tracking and plotting of train_loss, val_loss, train_acc, and val_acc for training evaluation.
+Third the fine-tuning pipeline is improved with data augmentation with random resizing, horizontal and vertical flipping, and affine, oversampling of underrepresented classes, automated hyperparameter tuning with optuna, warm up and cosine annealing, speed up of training with autocast, and training tracking and plotting of train_loss, val_loss, train_acc, and val_acc for training evaluation
+<p align="center">
+  <img src="assets/learning_tracking_image_9930641.png" height="350">
+</p>
+
+<p align="center">
+  <img src="assets/fig_param_importances.png" height="300">
+  <img src="assets/fig_optimization_history.png" height="300">
+</p>
